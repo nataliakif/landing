@@ -1,0 +1,10 @@
+:root {
+  --main-font: 'Montserrat', Helvetica;
+
+  --primary-color: rgba(255, 255, 255, 0);
+  --x-1: rgba(123, 127, 129, 1);
+  --secondary-color: rgba(59, 113, 142, 1);
+  --x-3: rgba(52, 123, 190, 1);
+  --button-color: rgba(243, 218, 112, 1);
+  --x-5: rgba(255, 255, 255, 1);
+}
