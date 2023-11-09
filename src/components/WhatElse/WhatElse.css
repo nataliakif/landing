@@ -1,0 +1,45 @@
+.whatElse {
+  background-color: #3b718e;
+  color: #fff;
+  padding: 64px 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whatElse_title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+.whatElse_list {
+  list-style: none;
+  margin-top: 48px;
+  margin-bottom: 54px;
+}
+.list_wrapper {
+  position: relative;
+}
+.whatElse_sub {
+  position: absolute;
+  left: -20px;
+  top: 47px;
+}
+.whatElse_list li {
+  margin-bottom: 10px;
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  line-height: 27px;
+}
+.whatElse_xyellow {
+  position: absolute;
+  top: 200px;
+  right: -30px;
+}
+.whatElse_xwhite {
+  position: absolute;
+  bottom: -200px;
+  left: -30px;
+}
