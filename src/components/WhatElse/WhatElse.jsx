@@ -1,9 +1,9 @@
 import React from 'react';
 import './WhatElse.css';
-import { ReactComponent as TitleLine } from '../../images/svg/title-line.svg';
-import { ReactComponent as Subparagraphs } from '../../images/svg/subparagraphs.svg';
-import { ReactComponent as XYellow } from '../../images/svg/x-yellow.svg';
-import { ReactComponent as XWhite } from '../../images/svg/x-white.svg';
+import { ReactComponent as TitleLine } from '../../images/svg/mobile/title-line.svg';
+import { ReactComponent as Subparagraphs } from '../../images/svg/mobile/subparagraphs.svg';
+import { ReactComponent as XYellow } from '../../images/svg/mobile/x-yellow.svg';
+import { ReactComponent as XWhite } from '../../images/svg/mobile/x-white.svg';
 import Button from '../Button';
 
 export const WhatElse = () => {

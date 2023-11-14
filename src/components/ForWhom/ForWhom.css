@@ -1,0 +1,77 @@
+.forwhom_title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #1f6db6;
+}
+.forwhom_text {
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: #1f6db6;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+.forwhom_text span {
+  font-weight: 700;
+}
+.forwhom_block {
+  padding: 28px 10px 20px;
+  border: 1px solid #c1b8a7;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.number-circle {
+  position: relative;
+  margin-bottom: 16px;
+}
+.number {
+  font-size: 164px;
+  line-height: 164px;
+  font-weight: 700;
+  opacity: 60%;
+  color: #347bbe;
+  text-align: center;
+}
+.stroke {
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+}
+.text-content_1 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: #347bbe;
+}
+.text-content_2 {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #347bbe;
+}
+.block2 {
+  position: relative;
+}
+.block3 {
+  position: relative;
+  margin-bottom: 32px;
+}
+.x-yellow-big {
+  position: absolute;
+  top: -50px;
+  right: -30px;
+}
+.x-blue-big {
+  position: absolute;
+  left: -10px;
+  top: -40px;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
 import './About.css';
-import { ReactComponent as SubtitleLine } from '../../images/svg/subtitle-line.svg';
-import { ReactComponent as BlueRing } from '../../images/svg/blueRing.svg';
-import { ReactComponent as Bulb } from '../../images/svg/bulb.svg';
-import { ReactComponent as XBlue } from '../../images/svg/x-blue.svg';
+import { ReactComponent as SubtitleLine } from '../../images/svg/mobile/subtitle-line.svg';
+import { ReactComponent as BlueRing } from '../../images/svg/mobile/blueRing.svg';
+import { ReactComponent as Bulb } from '../../images/svg/mobile/bulb.svg';
+import { ReactComponent as XBlue } from '../../images/svg/mobile/x-blue.svg';
 import imageSrc from '../../images/photos/about.png';
 import Button from '../Button';
 

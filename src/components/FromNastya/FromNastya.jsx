@@ -1,7 +1,7 @@
 import React from 'react';
 import './FromNastya.css';
-import { ReactComponent as Instagram } from '../../images/svg/instagram.svg';
-import { ReactComponent as XRingUp } from '../../images/svg/x-ring-up.svg';
+import { ReactComponent as Instagram } from '../../images/svg/mobile/instagram.svg';
+import { ReactComponent as XRingUp } from '../../images/svg/mobile/x-ring-up.svg';
 import imageSrc from '../../images/photos/fromNastya.png';
 import Button from '../Button';
 
