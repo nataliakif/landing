@@ -13,7 +13,7 @@ export const Reviews = () => {
           <TitleLine className="title_line"></TitleLine>
         </div>
         <TestimonialsSlider></TestimonialsSlider>
-        <BigWaves></BigWaves>
+        <BigWaves className="waves"></BigWaves>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  color: #1f6db6;
+  color: #013252;
 }
 .left_column {
   display: flex;
@@ -33,7 +33,7 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.04em;
-  color: #1f6db6;
+  color: #013252;
 }
 .fromNastya_text span {
   font-weight: 600;
@@ -47,7 +47,7 @@
   min-width: 160px;
   padding: 13px 10px;
   border-radius: 5px;
-  background-color: #3b718e;
+  background-color: #013252;
   color: #fff;
   font-size: 14px;
   letter-spacing: -0.09em;

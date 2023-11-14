@@ -4,6 +4,7 @@ import { ReactComponent as SubtitleLine } from '../../images/svg/mobile/subtitle
 import { ReactComponent as BlueRing } from '../../images/svg/mobile/blueRing.svg';
 import { ReactComponent as Bulb } from '../../images/svg/mobile/bulb.svg';
 import { ReactComponent as XBlue } from '../../images/svg/mobile/x-blue.svg';
+import { ReactComponent as Upwork } from '../../images/svg/mobile/upwork1.svg';
 import imageSrc from '../../images/photos/about.png';
 import Button from '../Button';
 
@@ -18,6 +19,7 @@ export const About = () => {
             UPWORK?
           </p>
           <img className="about_image" src={imageSrc} alt="Робота на Upwork" />
+          <Upwork className="upwork"></Upwork>
           <SubtitleLine></SubtitleLine>
         </div>
         <p className="about_list_title">У цьому уроці ви дізнаєтеся:</p>

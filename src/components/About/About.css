@@ -10,29 +10,33 @@
 }
 .about_title {
   margin: 0;
+  width: 313px;
   font-size: 28px;
   line-height: 42px;
   font-weight: 500;
-  color: #3b718e;
+  color: #013252;
 }
 .about_title_span {
   font-weight: 700;
 }
 .about_list_title {
+  width: 350px;
   margin-top: 125px;
   margin-bottom: 24px;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 36px;
   font-weight: 600;
-  color: #3b718e;
+  letter-spacing: -0.03rem;
+  color: #013252;
 }
 .blue_ring {
   position: absolute;
   top: -90px;
-  left: -120px;
+  left: -100px;
 }
 .about_image {
   position: absolute;
+  border-radius: 50%;
   bottom: -100px;
   right: -25px;
 }
@@ -58,7 +62,7 @@
 .about_text {
   font-size: 20px;
   line-height: 30px;
-  color: #3b718e;
+  color: #013252;
 }
 .about_span {
   font-weight: 600;
@@ -67,4 +71,9 @@
   position: absolute;
   bottom: -30px;
   right: 0px;
+}
+.upwork {
+  position: absolute;
+  bottom: -80px;
+  right: 80px;
 }

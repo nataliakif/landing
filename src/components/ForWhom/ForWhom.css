@@ -1,14 +1,17 @@
+.forwhom {
+  padding: 64px 0;
+}
 .forwhom_title {
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
   text-transform: uppercase;
-  color: #1f6db6;
+  color: #013252;
 }
 .forwhom_text {
   margin-top: 32px;
   margin-bottom: 12px;
-  color: #1f6db6;
+  color: #013252;
   text-transform: uppercase;
   font-size: 24px;
   line-height: 36px;
@@ -31,17 +34,18 @@
   margin-bottom: 16px;
 }
 .number {
-  font-size: 164px;
-  line-height: 164px;
+  font-family: 'Inter';
+  font-size: 140px;
+  line-height: 210px;
   font-weight: 700;
   opacity: 60%;
-  color: #347bbe;
+  color: #013252;
   text-align: center;
 }
 .stroke {
   position: absolute;
-  bottom: -20px;
-  left: -10px;
+  bottom: 20px;
+  left: -20px;
 }
 .text-content_1 {
   margin-bottom: 16px;
@@ -49,14 +53,14 @@
   line-height: 30px;
   text-align: center;
   font-weight: 700;
-  color: #347bbe;
+  color: #013252;
 }
 .text-content_2 {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
 
-  color: #347bbe;
+  color: #013252;
 }
 .block2 {
   position: relative;

@@ -21,7 +21,7 @@ const styles = {
   yellowButton: {
     backgroundColor: '#F3DA70',
     border: 'none',
-    color: '#206B93',
+    color: '#013252',
   },
   transparentButton: {
     backgroundColor: 'transparent',
