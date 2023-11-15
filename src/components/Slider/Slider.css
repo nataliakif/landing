@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .testimonial-slide {
     border-radius: 20px;
     padding: 32px 20px;
@@ -10,7 +10,6 @@
 }
 @media only screen and (min-width: 1239px) {
   .testimonial-slide {
-    margin-right: 30px;
     background-color: transparent;
   }
   .testimonial_wrapper {
