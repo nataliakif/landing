@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing/static/css/main.4f4342ca.css",
+    "main.css": "/landing/static/css/main.896f13db.css",
     "main.js": "/landing/static/js/main.2b506ab9.js",
     "static/media/footer.png": "/landing/static/media/footer.2b32c4931345703f2a16.png",
     "static/media/fromNastya-desktop.png": "/landing/static/media/fromNastya-desktop.265bb29abb8add5a658a.png",
@@ -50,11 +50,11 @@
     "static/media/facebook_footer.svg": "/landing/static/media/facebook_footer.a94827f6b3a6e022cddd72a872d11e8d.svg",
     "static/media/subparagraphs.svg": "/landing/static/media/subparagraphs.7ec04044771f17572b0f46b9dd93e061.svg",
     "static/media/half-ring.svg": "/landing/static/media/half-ring.89c8da41ba6bd70927fbcc50c8b943c1.svg",
-    "main.4f4342ca.css.map": "/landing/static/css/main.4f4342ca.css.map",
+    "main.896f13db.css.map": "/landing/static/css/main.896f13db.css.map",
     "main.2b506ab9.js.map": "/landing/static/js/main.2b506ab9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f4342ca.css",
+    "static/css/main.896f13db.css",
     "static/js/main.2b506ab9.js"
   ]
 }
