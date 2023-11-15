@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/landing/static/css/main.896f13db.css",
-    "main.js": "/landing/static/js/main.2b506ab9.js",
+    "main.js": "/landing/static/js/main.20efc5ab.js",
     "static/media/footer.png": "/landing/static/media/footer.2b32c4931345703f2a16.png",
     "static/media/fromNastya-desktop.png": "/landing/static/media/fromNastya-desktop.265bb29abb8add5a658a.png",
     "static/media/benefits.png": "/landing/static/media/benefits.dde69d7e97c9c2220abb.png",
@@ -46,15 +46,15 @@
     "static/media/x-white.svg": "/landing/static/media/x-white.e7e4e0fc4770be2a4a9c8b7ae9948c53.svg",
     "static/media/x-blue-big.svg": "/landing/static/media/x-blue-big.a3ef0d2a9e1380193413d83a8d337e32.svg",
     "static/media/x-blue.svg": "/landing/static/media/x-blue.ea61d55e1d72b07fb960339423d415c2.svg",
+    "static/media/tiktok.svg": "/landing/static/media/tiktok.3987e1eed2038ac011fa22454b123cb2.svg",
     "static/media/sub-desktop.svg": "/landing/static/media/sub-desktop.d144ba69b3e03ad013e9f7822258d961.svg",
-    "static/media/facebook_footer.svg": "/landing/static/media/facebook_footer.a94827f6b3a6e022cddd72a872d11e8d.svg",
     "static/media/subparagraphs.svg": "/landing/static/media/subparagraphs.7ec04044771f17572b0f46b9dd93e061.svg",
     "static/media/half-ring.svg": "/landing/static/media/half-ring.89c8da41ba6bd70927fbcc50c8b943c1.svg",
     "main.896f13db.css.map": "/landing/static/css/main.896f13db.css.map",
-    "main.2b506ab9.js.map": "/landing/static/js/main.2b506ab9.js.map"
+    "main.20efc5ab.js.map": "/landing/static/js/main.20efc5ab.js.map"
   },
   "entrypoints": [
     "static/css/main.896f13db.css",
-    "static/js/main.2b506ab9.js"
+    "static/js/main.20efc5ab.js"
   ]
 }
