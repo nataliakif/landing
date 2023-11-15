@@ -4,7 +4,7 @@
     padding: 32px 20px;
     background-color: #fff;
     display: block;
-    max-height: 385px;
+    max-height: 395px;
     transition: min-height 0.3s ease;
   }
 }
@@ -54,7 +54,7 @@
   line-height: 24px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 12px;
+
   color: #013252;
 }
 .testimonial-footer p {
