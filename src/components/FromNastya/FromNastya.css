@@ -116,7 +116,7 @@
 .fromNastya_image {
   position: absolute;
   top: 0;
-  right: 0;
+  right: -5px;
 }
 .text_wrapper_1 {
   margin-top: 32px;
