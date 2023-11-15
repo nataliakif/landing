@@ -18,6 +18,7 @@
 
   .wrapper {
     align-items: flex-start;
+    position: relative;
   }
   .whatElse_title {
     font-size: 40px;
@@ -39,16 +40,19 @@
     text-transform: uppercase;
   }
   .whatElse_list li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-family: Helvetica Neue;
     font-size: 18px;
     line-height: 27px;
   }
+  .whatElse_list {
+    margin-left: 20px;
+  }
 }
 .whatElse_sub {
   position: absolute;
-  left: -20px;
-  top: 40px;
+  left: 0px;
+  top: 47px;
 }
 .whatElse_list {
   list-style: none;
