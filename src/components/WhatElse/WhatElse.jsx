@@ -18,7 +18,7 @@ export const WhatElse = () => {
           <TitleLine></TitleLine>
           <div className="list_wrapper">
             {isDesktop ? (
-              <SubparagraphsDesktop className="whatElse_sub"></SubparagraphsDesktop>
+              <SubparagraphsDesktop className="whatElse_sub_desk"></SubparagraphsDesktop>
             ) : (
               <Subparagraphs className="whatElse_sub"></Subparagraphs>
             )}
