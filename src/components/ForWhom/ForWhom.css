@@ -1,12 +1,45 @@
 .forwhom {
   padding: 64px 0;
 }
-.forwhom_title {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 48px;
-  text-transform: uppercase;
-  color: #013252;
+@media only screen and (min-width: 1239px) {
+  .forwhom_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .forwhom_title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #013252;
+  }
+  .text-content_2 {
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #013252;
+  }
+  .forwhom_block {
+    width: 336px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .forwhom_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #013252;
+  }
+  .text-content_2 {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #013252;
+  }
 }
 .forwhom_text {
   margin-top: 32px;
@@ -55,13 +88,7 @@
   font-weight: 700;
   color: #013252;
 }
-.text-content_2 {
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
 
-  color: #013252;
-}
 .block2 {
   position: relative;
 }

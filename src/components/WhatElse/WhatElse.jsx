@@ -1,12 +1,15 @@
 import React from 'react';
 import './WhatElse.css';
+import useIsDesktop from '../IsDesktop';
 import { ReactComponent as TitleLine } from '../../images/svg/mobile/title-line.svg';
 import { ReactComponent as Subparagraphs } from '../../images/svg/mobile/subparagraphs.svg';
+import { ReactComponent as SubparagraphsDesktop } from '../../images/svg/desktop/sub-desktop.svg';
 import { ReactComponent as XYellow } from '../../images/svg/mobile/x-yellow.svg';
 import { ReactComponent as XWhite } from '../../images/svg/mobile/x-white.svg';
-import Button from '../Button';
+import Button from '../Button/Button';
 
 export const WhatElse = () => {
+  const isDesktop = useIsDesktop();
   return (
     <div className="whatElse">
       <div className="container">
@@ -14,7 +17,12 @@ export const WhatElse = () => {
           <h2 className="whatElse_title">Що ще?</h2>
           <TitleLine></TitleLine>
           <div className="list_wrapper">
-            <Subparagraphs className="whatElse_sub"></Subparagraphs>
+            {isDesktop ? (
+              <SubparagraphsDesktop className="whatElse_sub"></SubparagraphsDesktop>
+            ) : (
+              <Subparagraphs className="whatElse_sub"></Subparagraphs>
+            )}
+
             <XYellow className="whatElse_xyellow"></XYellow>
             <XWhite className="whatElse_xwhite"></XWhite>
             <ul className="whatElse_list">

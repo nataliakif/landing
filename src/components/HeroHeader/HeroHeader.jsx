@@ -6,8 +6,7 @@ import { ReactComponent as Up } from '../../images/svg/mobile/upwork3.svg';
 import { ReactComponent as Work } from '../../images/svg/mobile/upwork2.svg';
 import { ReactComponent as XYellow } from '../../images/svg/mobile/x-yellow.svg';
 import { ReactComponent as XWhite } from '../../images/svg/mobile/x-white.svg';
-import { ReactComponent as XYellowDesktop } from '../../images/svg/desktop/x-yellow-desktop.svg';
-import Button from '../Button';
+import Button from '../Button/Button';
 import './HeroHeader.css';
 
 export const HeroHeader = () => {
@@ -16,10 +15,10 @@ export const HeroHeader = () => {
   return (
     <div className="hero">
       <div className="container">
-        {isDesktop && <XYellowDesktop />}
         <h1 className="hero_title">
-          Як почати працювати на <span className="hero_title_span">Upwork</span>{' '}
-          і знайти свою ІТ професію
+          Як почати працювати на{' '}
+          <span className="hero_title_span">Upwork </span>і знайти свою ІТ
+          професію
         </h1>
 
         {isDesktop ? (
@@ -29,12 +28,19 @@ export const HeroHeader = () => {
               <div className="left_column>">
                 <p className="hero_text_1">
                   Чи мрієте ви заробляти
-                  <span className="hero_text_2_span"> високу зарплату</span> в
-                  доларах
+                  <span> високу зарплату</span> в доларах
                 </p>
                 <div className="button-container">
-                  <Button isYellow={false} title="Деталі" />
-                  <Button isYellow={true} title="Зареєструватися" />
+                  <Button
+                    className="desktop_button"
+                    isYellow={false}
+                    title="Деталі"
+                  />
+                  <Button
+                    className="desktop_button"
+                    isYellow={true}
+                    title="Зареєструватися"
+                  />
                 </div>
               </div>
               <div className="right_column">
@@ -43,7 +49,6 @@ export const HeroHeader = () => {
                   Якщо так, то фріланс платформа
                   <span className="hero_title_span"> Upwork</span> - це
                   ідеальний варіант для вас.
-                  <XWhite className="hero_xwhite" />
                 </p>
               </div>
             </div>

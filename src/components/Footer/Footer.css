@@ -2,12 +2,26 @@
   padding: 38px 0;
   background-color: #013252;
 }
-.social_links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 36px;
+@media only screen and (max-width: 768px) {
+  .social_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_text {
+    margin-top: 32px;
+  }
 }
+@media only screen and (min-width: 1239px) {
+  .social_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 .social_link {
   margin-right: 24px;
 }

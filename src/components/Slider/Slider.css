@@ -1,8 +1,26 @@
-.testimonial-slide {
-  border-radius: 20px;
-  padding: 32px 20px;
-  background-color: #fff;
-  display: block;
+@media only screen and (min-width: 768px) {
+  .testimonial-slide {
+    border-radius: 20px;
+    padding: 32px 20px;
+    background-color: #fff;
+    display: block;
+    max-height: 385px;
+    transition: min-height 0.3s ease;
+  }
+}
+@media only screen and (min-width: 1239px) {
+  .testimonial-slide {
+    margin-right: 30px;
+    background-color: transparent;
+  }
+  .testimonial_wrapper {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 32px 20px;
+  }
+}
+.expanded {
+  max-height: 550px; /* Убираем фиксированную высоту для расширения */
 }
 .testimonial_image {
   border-radius: 50%;
@@ -17,6 +35,19 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
+  max-height: 110px;
+
+  overflow: hidden; /* Скрыть излишек текста в свернутом состоянии */
+  /* Примерное ограничение высоты для свернутого текста */
+}
+.testimonial-slide.expanded .testimonial-content {
+  max-height: none; /* Убрать ограничение высоты для раскрытого текста */
+}
+.expand-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 32px;
 }
 .testimonial-footer h4 {
@@ -33,4 +64,13 @@
   font-weight: 500;
   text-transform: uppercase;
   text-align: center;
+}
+.arrow-icon {
+  transition: transform 0.3s ease; /* Плавный переход для анимации */
+}
+
+.testimonial-slide.expanded .arrow-icon {
+  transform: rotate(
+    180deg
+  ); /* Поворот стрелки на 180 градусов при раскрытом состоянии */
 }

@@ -1,0 +1,40 @@
+/* Стили для общего класса button */
+.button {
+  width: 350px;
+  height: 60px;
+  border-radius: 100px;
+  padding: 12px 94px;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 500;
+}
+
+/* Медиа-правило для класса button при ширине экрана от 1240px */
+@media (min-width: 1240px) {
+  .button {
+    width: 290px;
+    padding: 8px 67px;
+  }
+}
+
+/* Стили для класса yellowButton */
+.yellowButton {
+  background-color: #f3da70;
+  border: none;
+  color: #013252;
+}
+
+/* Стили для класса transparentButton */
+.transparentButton {
+  background-color: transparent;
+  border: 1px solid #f3da70;
+  color: #f3da70;
+  margin-bottom: 24px;
+}
+@media (min-width: 1240px) {
+  .transparentButton {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}

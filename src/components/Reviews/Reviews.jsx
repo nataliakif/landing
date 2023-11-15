@@ -8,7 +8,7 @@ export const Reviews = () => {
   return (
     <div className="reviews">
       <div className="container">
-        <div className="wrapper">
+        <div className="reviews_wrapper">
           <h2 className="reviews_title">відгуки про урок</h2>
           <TitleLine className="title_line"></TitleLine>
         </div>

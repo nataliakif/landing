@@ -19,7 +19,9 @@
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-
+.hero_title span {
+  color: #f3da70;
+}
 .wrapper {
   position: relative;
   width: inherit;
@@ -71,16 +73,21 @@
   right: -14px;
   top: -14px;
 }
-@media only screen and (min-width: 1024px) {
+
+@media only screen and (min-width: 1239px) {
   .hero {
-    padding-top: 51px;
+    padding-top: 160px;
     padding-bottom: 154px;
+    background-image: url('../../images/photos/desktop/hero-header.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .hero_title {
-    width: 929px;
-    margin-top: 73px;
-    font-size: 65px;
-    line-height: 100px;
+    width: 666px;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -0.01rem;
   }
   .title_line {
     width: 736px;
@@ -89,25 +96,41 @@
   .content {
     display: flex;
     flex-direction: row;
+    margin-top: 24px;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 32px;
   }
   .left_column {
-    width: 929px;
-    margin-right: 149px;
+    padding-right: 123px;
   }
   .right_column {
     width: 350px;
   }
   .hero_text_1 {
     margin-top: 0;
+    margin-right: 150px;
+    margin-bottom: 47px;
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .hero_text_1 span {
+    font-weight: 700;
   }
   .hero_text_3 {
     margin-top: 0;
+    margin-bottom: 0;
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .hero_text_3 span {
+    color: #f3da70;
+    font-weight: 700;
   }
   .button-container {
     display: flex;
     flex-direction: row;
+  }
+  .desktop_button {
+    margin-right: 20px;
   }
 }

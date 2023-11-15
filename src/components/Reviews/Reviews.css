@@ -2,6 +2,7 @@
   padding-top: 64px;
   background-color: #013252;
 }
+
 .reviews_title {
   width: 350px;
   font-weight: 700;
@@ -9,6 +10,11 @@
   line-height: 48px;
   text-transform: uppercase;
   color: #fff;
+}
+@media only screen and (min-width: 1239px) {
+  .title_line {
+    width: 290px;
+  }
 }
 .title_line {
   margin-bottom: 50px;
