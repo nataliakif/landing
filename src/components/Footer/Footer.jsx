@@ -10,7 +10,7 @@ export const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="social_links">
-          <div>
+          <div className="social_wrapper">
             <a
               className="social_link"
               href="https://instagram.com/nancyyoungg?igshid=OGQ5ZDc2ODk2ZA=="
