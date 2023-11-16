@@ -1,6 +1,7 @@
 .container {
   font-family: var(--main-font);
   position: relative;
+  max-width: 390px;
   padding: 0 20px;
   margin: 0 auto;
 
