@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing/static/css/main.05bdbf9a.css",
+    "main.css": "/landing/static/css/main.2e4f6bc3.css",
     "main.js": "/landing/static/js/main.6dc66e50.js",
     "static/media/footer.png": "/landing/static/media/footer.2b32c4931345703f2a16.png",
     "static/media/fromNastya-desktop.png": "/landing/static/media/fromNastya-desktop.265bb29abb8add5a658a.png",
@@ -50,11 +50,11 @@
     "static/media/sub-desktop.svg": "/landing/static/media/sub-desktop.d144ba69b3e03ad013e9f7822258d961.svg",
     "static/media/subparagraphs.svg": "/landing/static/media/subparagraphs.7ec04044771f17572b0f46b9dd93e061.svg",
     "static/media/half-ring.svg": "/landing/static/media/half-ring.89c8da41ba6bd70927fbcc50c8b943c1.svg",
-    "main.05bdbf9a.css.map": "/landing/static/css/main.05bdbf9a.css.map",
+    "main.2e4f6bc3.css.map": "/landing/static/css/main.2e4f6bc3.css.map",
     "main.6dc66e50.js.map": "/landing/static/js/main.6dc66e50.js.map"
   },
   "entrypoints": [
-    "static/css/main.05bdbf9a.css",
+    "static/css/main.2e4f6bc3.css",
     "static/js/main.6dc66e50.js"
   ]
 }
