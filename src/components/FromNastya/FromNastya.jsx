@@ -11,17 +11,6 @@ export const FromNastya = () => {
   const isDesktop = useIsDesktop();
   return (
     <div className="fromNastya">
-      {!isDesktop && (
-        <>
-          <XRingUp className="x_ring_up"></XRingUp>
-          <img
-            className="fromNastya_image"
-            src={imageSrc}
-            alt="Робота на Upwork"
-          />
-        </>
-      )}
-
       <div className="container">
         <div className="fromNastya_wrapper">
           <div className="fromNastya_left-column ">
@@ -65,13 +54,25 @@ export const FromNastya = () => {
           </div>
           <div className="fromNastya_right-column">
             {isDesktop && <img src={imageSrcDesktop} alt="Робота на Upwork" />}
+            {!isDesktop && (
+              <>
+                <XRingUp className="x_ring_up"></XRingUp>
+                <img
+                  className="fromNastya_image"
+                  src={imageSrc}
+                  alt="Робота на Upwork"
+                />
+              </>
+            )}
 
             <div className="social-media">
-              {/* <a
+              <a
                 href="https://instagram.com/nancyyoungg"
                 target="_blank"
                 rel="noreffer noreferrer"
-              >      </a>*/}
+              >
+                {' '}
+              </a>
               <p>Анастасія Дорошенко</p>
               <div className="fromNastya_inst">
                 <Instagram></Instagram>
