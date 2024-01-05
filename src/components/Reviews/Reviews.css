@@ -12,6 +12,14 @@
   color: #fff;
 }
 @media only screen and (min-width: 1239px) {
+  .reviews {
+    background-image: url('../../images/photos/desktop/reviews.jpeg');
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 197px;
+  }
   .title_line {
     width: 290px;
   }

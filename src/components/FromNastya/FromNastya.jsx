@@ -107,7 +107,13 @@ export const FromNastya = () => {
             </div>
           </>
         )}
-        <Button isYellow={true} title="Отримати" />
+        <a
+          href="https://shop-18229.e3.co.ua/shop/lektsiya-upwork/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button isYellow={true} title="Отримати" />
+        </a>
       </div>
     </div>
   );

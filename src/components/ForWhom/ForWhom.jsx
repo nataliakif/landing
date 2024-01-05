@@ -68,7 +68,13 @@ export const ForWhom = () => {
         </div>
 
         <div className="button-container">
-          <Button isYellow={true} title="Мені підходіть!" />
+          <a
+            href="https://shop-18229.e3.co.ua/shop/lektsiya-upwork/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button isYellow={true} title="Мені підходіть!" />
+          </a>
         </div>
       </div>
     </div>

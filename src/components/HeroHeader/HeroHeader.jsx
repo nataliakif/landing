@@ -6,6 +6,7 @@ import { ReactComponent as Up } from '../../images/svg/mobile/upwork3.svg';
 import { ReactComponent as Work } from '../../images/svg/mobile/upwork2.svg';
 import { ReactComponent as XYellow } from '../../images/svg/mobile/x-yellow.svg';
 import { ReactComponent as XWhite } from '../../images/svg/mobile/x-white.svg';
+import { ReactComponent as Arrow } from '../../images/svg/desktop/path46.svg';
 import Button from '../Button/Button';
 import './HeroHeader.css';
 
@@ -36,12 +37,21 @@ export const HeroHeader = () => {
                     isYellow={false}
                     title="Деталі"
                   />
-                  <Button
-                    className="desktop_button"
-                    isYellow={true}
-                    title="Зареєструватися"
-                  />
+                  <a
+                    href="https://shop-18229.e3.co.ua/shop/lektsiya-upwork/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button
+                      className="desktop_button"
+                      isYellow={true}
+                      title="Зареєструватися"
+                    />
+                  </a>
                 </div>
+              </div>
+              <div class="middle_column">
+                <Arrow class="hero_arrow"></Arrow>
               </div>
               <div className="right_column">
                 {' '}

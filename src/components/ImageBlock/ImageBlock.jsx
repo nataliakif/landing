@@ -21,7 +21,13 @@ export const ImageBlock = () => {
           {!isDesktop && <HalfRing className="image_svg"></HalfRing>}
           {isDesktop && (
             <div className="image_button">
-              <Button isYellow={true} title="Купити урок" />
+              <a
+                href="https://shop-18229.e3.co.ua/shop/lektsiya-upwork/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button isYellow={true} title="Купити урок" />
+              </a>
             </div>
           )}
         </div>
