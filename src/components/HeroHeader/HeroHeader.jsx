@@ -85,7 +85,14 @@ export const HeroHeader = () => {
             </p>
             <div className="button-container">
               <Button isYellow={false} title="Деталі" />
-              <Button isYellow={true} title="Зареєструватися" />
+              <a
+                href="https://shop-18229.e3.co.ua/shop/lektsiya-upwork/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {' '}
+                <Button isYellow={true} title="Зареєструватися" />
+              </a>
             </div>
           </>
         )}
