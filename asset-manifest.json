@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing/static/css/main.2c957018.css",
-    "main.js": "/landing/static/js/main.b87b4b23.js",
+    "main.css": "/landing/static/css/main.93ab091b.css",
+    "main.js": "/landing/static/js/main.b84b1ffd.js",
     "static/media/footer.png": "/landing/static/media/footer.2b32c4931345703f2a16.png",
     "static/media/fromNastya-desktop.png": "/landing/static/media/fromNastya-desktop.265bb29abb8add5a658a.png",
     "static/media/benefits.png": "/landing/static/media/benefits.dde69d7e97c9c2220abb.png",
@@ -21,7 +21,9 @@
     "static/media/review5.png": "/landing/static/media/review5.ebd2674b59124cddfce6.png",
     "static/media/review2.png": "/landing/static/media/review2.16380e1ad212efdc186a.png",
     "static/media/benefits.jpeg": "/landing/static/media/benefits.35887b58fbe21721d05e.jpeg",
+    "static/media/reviews.jpeg": "/landing/static/media/reviews.188978e6d5a20b6d95e5.jpeg",
     "static/media/fromNastya.jpeg": "/landing/static/media/fromNastya.532672af89651d6a67d5.jpeg",
+    "static/media/forWhom.jpeg": "/landing/static/media/forWhom.f72da2f46f3560aa7705.jpeg",
     "static/media/bulb.svg": "/landing/static/media/bulb.571dc9291aff6c8ae80402c8f9107081.svg",
     "static/media/instagram.svg": "/landing/static/media/instagram.55a6d3499f8b7c7eb0377142dd2b1a94.svg",
     "static/media/waves.svg": "/landing/static/media/waves.c1005b5de56353d5d53b06133bffaabf.svg",
@@ -35,6 +37,7 @@
     "static/media/slick.ttf": "/landing/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/x-yellow-big.svg": "/landing/static/media/x-yellow-big.70d2c32f2794cd5b010d99cbfc4785cb.svg",
     "static/media/x-yellow-big-transparent.svg": "/landing/static/media/x-yellow-big-transparent.c60a0bcaef55c338dadd48938a900695.svg",
+    "static/media/path46.svg": "/landing/static/media/path46.15bdbe710bd526cbad7b9778b08e0806.svg",
     "static/media/telegram_footer.svg": "/landing/static/media/telegram_footer.c18a4884df102c6217a3258819b56866.svg",
     "static/media/blueRing.svg": "/landing/static/media/blueRing.3fbf2c6221349400c3dc21747f902f90.svg",
     "static/media/x-ring-up.svg": "/landing/static/media/x-ring-up.acf784291710dfb0d703171d451c0f83.svg",
@@ -50,11 +53,11 @@
     "static/media/sub-desktop.svg": "/landing/static/media/sub-desktop.d144ba69b3e03ad013e9f7822258d961.svg",
     "static/media/subparagraphs.svg": "/landing/static/media/subparagraphs.7ec04044771f17572b0f46b9dd93e061.svg",
     "static/media/half-ring.svg": "/landing/static/media/half-ring.89c8da41ba6bd70927fbcc50c8b943c1.svg",
-    "main.2c957018.css.map": "/landing/static/css/main.2c957018.css.map",
-    "main.b87b4b23.js.map": "/landing/static/js/main.b87b4b23.js.map"
+    "main.93ab091b.css.map": "/landing/static/css/main.93ab091b.css.map",
+    "main.b84b1ffd.js.map": "/landing/static/js/main.b84b1ffd.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c957018.css",
-    "static/js/main.b87b4b23.js"
+    "static/css/main.93ab091b.css",
+    "static/js/main.b84b1ffd.js"
   ]
 }
