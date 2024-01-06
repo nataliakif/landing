@@ -45,14 +45,13 @@ export const WhatElse = () => {
         </div>
 
         <div className="button-container">
-          <Button isYellow={false} title="Деталі" />
           <a
             href="https://shop-18229.e3.co.ua/shop/lektsiya-upwork/"
             target="_blank"
             rel="noreferrer"
           >
             {' '}
-            <Button isYellow={true} title="Зареєструватися" />
+            <Button isYellow={true} title="Придбати урок" />
           </a>
         </div>
       </div>

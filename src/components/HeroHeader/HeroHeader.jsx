@@ -32,11 +32,6 @@ export const HeroHeader = () => {
                   <span> високу зарплату</span> в доларах
                 </p>
                 <div className="button-container">
-                  <Button
-                    className="desktop_button"
-                    isYellow={false}
-                    title="Деталі"
-                  />
                   <a
                     href="https://shop-18229.e3.co.ua/shop/lektsiya-upwork/"
                     target="_blank"
@@ -45,7 +40,7 @@ export const HeroHeader = () => {
                     <Button
                       className="desktop_button"
                       isYellow={true}
-                      title="Зареєструватися"
+                      title="Придбати"
                     />
                   </a>
                 </div>
@@ -84,14 +79,13 @@ export const HeroHeader = () => {
               <XWhite className="hero_xwhite" />
             </p>
             <div className="button-container">
-              <Button isYellow={false} title="Деталі" />
               <a
                 href="https://shop-18229.e3.co.ua/shop/lektsiya-upwork/"
                 target="_blank"
                 rel="noreferrer"
               >
                 {' '}
-                <Button isYellow={true} title="Зареєструватися" />
+                <Button isYellow={true} title="Придбати" />
               </a>
             </div>
           </>

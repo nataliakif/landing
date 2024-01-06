@@ -60,7 +60,14 @@ export const About = () => {
             </p>
           </li>
         </ul>
-        <Button position="relative" isYellow={true} title="Деталі" />
+        <a
+          href="https://shop-18229.e3.co.ua/shop/lektsiya-upwork/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {' '}
+          <Button position="relative" isYellow={true} title="Купити" />
+        </a>
         {!isDesktop && <XBlue className="x-blue"></XBlue>}
       </div>
     </div>
