@@ -36,7 +36,7 @@ export const Footer = () => {
               <Telegram></Telegram>
             </a>
           </div>
-          <p className="footer_text">Created by @agnettaUA</p>
+          <p className="footer_text">ФОП Дорошенко Анастасія | ІНН 3347913548 | Design by <a href="https://t.me/agnettaUA/">@agnettaUA</a></p>
         </div>
       </div>
     </div>
