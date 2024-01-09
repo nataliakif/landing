@@ -13,7 +13,7 @@ export const Footer = () => {
           <div className="social_wrapper">
             <a
               className="social_link"
-              href="https://instagram.com/nancyyoungg?igshid=OGQ5ZDc2ODk2ZA=="
+              href="https://instagram.com/nancyyoungg"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -21,7 +21,7 @@ export const Footer = () => {
             </a>
             <a
               className="social_link"
-              href="https://www.tiktok.com/@nancyyoung940?_t=8hNecghCbrC&_r=1"
+              href="https://www.tiktok.com/@nancyyoung940"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -36,7 +36,7 @@ export const Footer = () => {
               <Telegram></Telegram>
             </a>
           </div>
-          <p className="footer_text">Created by @agnettaUA</p>
+          <p className="footer_text">ФОП Дорошенко Анастасія | ІНН 3347913548 | Design by <a href="https://t.me/agnettaUA/">@agnettaUA</a></p>
         </div>
       </div>
     </div>
