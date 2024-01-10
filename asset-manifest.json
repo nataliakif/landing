@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.85224004.css",
-    "main.js": "/static/js/main.b36ab507.js",
+    "main.js": "/static/js/main.a97e7e76.js",
     "static/media/footer.png": "/static/media/footer.2b32c4931345703f2a16.png",
     "static/media/fromNastya-desktop.png": "/static/media/fromNastya-desktop.265bb29abb8add5a658a.png",
     "static/media/benefits.png": "/static/media/benefits.dde69d7e97c9c2220abb.png",
@@ -37,13 +37,13 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/x-yellow-big.svg": "/static/media/x-yellow-big.70d2c32f2794cd5b010d99cbfc4785cb.svg",
     "static/media/x-yellow-big-transparent.svg": "/static/media/x-yellow-big-transparent.c60a0bcaef55c338dadd48938a900695.svg",
+    "index.html": "/index.html",
     "static/media/path46.svg": "/static/media/path46.15bdbe710bd526cbad7b9778b08e0806.svg",
     "static/media/telegram_footer.svg": "/static/media/telegram_footer.c18a4884df102c6217a3258819b56866.svg",
     "static/media/blueRing.svg": "/static/media/blueRing.3fbf2c6221349400c3dc21747f902f90.svg",
     "static/media/x-ring-up.svg": "/static/media/x-ring-up.acf784291710dfb0d703171d451c0f83.svg",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/x-ring-right.svg": "/static/media/x-ring-right.f9bd0b39aff973b1bd73ab38b13afcdb.svg",
-    "index.html": "/index.html",
     "static/media/upwork2.svg": "/static/media/upwork2.61bba3c3387f109194f8e5577b937d85.svg",
     "static/media/x-yellow.svg": "/static/media/x-yellow.62b14239de04b67cbb0d5081ef1e6de3.svg",
     "static/media/x-white.svg": "/static/media/x-white.e7e4e0fc4770be2a4a9c8b7ae9948c53.svg",
@@ -54,10 +54,10 @@
     "static/media/subparagraphs.svg": "/static/media/subparagraphs.7ec04044771f17572b0f46b9dd93e061.svg",
     "static/media/half-ring.svg": "/static/media/half-ring.89c8da41ba6bd70927fbcc50c8b943c1.svg",
     "main.85224004.css.map": "/static/css/main.85224004.css.map",
-    "main.b36ab507.js.map": "/static/js/main.b36ab507.js.map"
+    "main.a97e7e76.js.map": "/static/js/main.a97e7e76.js.map"
   },
   "entrypoints": [
     "static/css/main.85224004.css",
-    "static/js/main.b36ab507.js"
+    "static/js/main.a97e7e76.js"
   ]
 }
