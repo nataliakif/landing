@@ -1,11 +1,19 @@
 // Button.js
 import React from 'react';
 import './Button.css';
-
 const Button = ({ isYellow, title }) => {
   const buttonClass = isYellow ? 'yellowButton' : 'transparentButton';
 
-  return <button className={`button ${buttonClass}`} onclick="trackButtonFb()">{title}</button>;
-};
+  const handleClick = () => {
+    if (window.trackButtonFb) {
+      window.trackButtonFb();
+    }
+  };
 
+  return (
+    <button className={`button ${buttonClass}`} onClick={handleClick}>
+      {title}
+    </button>
+  );
+};
 export default Button;
